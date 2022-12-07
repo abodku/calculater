@@ -1,0 +1,17 @@
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.num {
+    background-color: rgb(199, 186, 246);
+    color: rgb(5, 5, 174);
+}
+.fun {
+    background-color: rgb(173, 112, 112);
+    color: black;
+}
+.c {
+    width: 47px;
+    border-radius: 25%;
+}
