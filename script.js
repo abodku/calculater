@@ -25,36 +25,16 @@ const vrf=(a)=>{
     (inout.value=="0") ? inout.value = a : inout.value=inout.value.concat(a);
 }
 
-const fb0 = ()=>{
-    vrf(0);
-}
-const fb1 = ()=>{
-    vrf(1);
-}
-const fb2 = ()=>{
-    vrf(2);
-}
-const fb3 = ()=>{
-    vrf(3);
-}
-const fb4 = ()=>{
-    vrf(4);
-}
-const fb5 = ()=>{
-    vrf(5);
-}
-const fb6 = ()=>{
-    vrf(6);
-}
-const fb7 = ()=>{
-    vrf(7);
-}
-const fb8 = ()=>{
-    vrf(8);
-}
-const fb9 = ()=>{
-    vrf(9);
-}
+const fb0 = ()=>vrf(0);
+const fb1 = ()=>vrf(1);
+const fb2 = ()=>vrf(2);
+const fb3 = ()=>vrf(3);
+const fb4 = ()=>vrf(4);
+const fb5 = ()=>vrf(5);
+const fb6 = ()=>vrf(6);
+const fb7 = ()=>vrf(7);
+const fb8 = ()=>vrf(8);
+const fb9 = ()=>vrf(9);
 
 const c = ()=>{
     if (inout.value.length > 1){
